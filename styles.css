@@ -102,7 +102,10 @@ a {
 .email-link:hover {
   color: #b89f5d;
 }
-
+.image {
+  justify-content: center;
+  text-align: center;
+}
 
 
 .section-header {
@@ -147,6 +150,9 @@ a {
   color: white;
 }
 
+.project-nav{
+  text-size-adjust: var(--section-font-size);
+}
 .project-nav-links {
   display: flex;
   justify-content: space-around;
@@ -159,6 +165,7 @@ a {
   font-family: var(--font-family);
   color: var(--font-color);
   cursor: pointer;
+  
 }
 
 
